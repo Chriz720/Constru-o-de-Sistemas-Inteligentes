@@ -1,9 +1,10 @@
-usuario_correto = "admin"
-senha_correta = "python123"
+usuario_correto = input("Informe seu usuário: ")
+senha_correta = input("Informe sua senha: ")
 
-input("Informe seu usuário: ")
-input("Informe sua senha: ")
-
-if usuario_correto != "admin" and senha_correta != "python123":
+if usuario_correto != "admin":
     print("Usuário não encontrado!")
-    print("Senha incorreta!")
+else: 
+    if senha_correta != "python123":
+        print("Senha incorreta!")
+    else:
+        print("Acesso autorizado!")
