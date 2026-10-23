@@ -1,1 +1,1 @@
-# Constru-o-de-Sistemas-Inteligentes
+# curso_python
